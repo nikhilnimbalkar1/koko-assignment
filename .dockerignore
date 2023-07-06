@@ -1,0 +1,99 @@
+.vscode
+.DS_Store
+.git
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+.testmondata
+.tmontmp
+.cache
+cov.xml
+cov_annotate/
+cov_html/
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+docs/generated
+
+#.webassets-cache
+
+# Virtualenvs
+env/
+.env
+venv/
+.venv
+
+# PyCharm
+.idea
+
+# SQLite
+*.db
+
+# Konch
+.konchrc
+
+
+# Passenger
+passenger*
+
+# Deployment
+ansible.cfg
+ansible/secret
+.debops.cfg
+.vagrant
+*.retry
+*.iml
+
+# Log file
+ApplicationLog*
+
+
+node_modules/*
+
+tmp
+
+test-reports
+docker/*.tar
+nohup.out
+.directory
+.pytest_cache
+**/__pycache__
+*.pyc
+
+
+#Sonarqube
+.scannerwork/
