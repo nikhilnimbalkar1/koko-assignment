@@ -11,3 +11,11 @@ def app():
 @pytest.fixture()
 def client(app):
     return app.test_client()
+
+
+@pytest.fixture()
+def mock_sleep(monkeypatch):
+    def sleep(secs):
+        pass
+
+    monkeypatch.setattr("app.sleep", sleep)
