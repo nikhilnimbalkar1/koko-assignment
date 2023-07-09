@@ -2,6 +2,8 @@ from time import sleep
 
 from flask import Flask
 
+WELCOME_TEXT = "Hello Koko, This is the test assignment!"
+
 
 def create_app() -> Flask:
     """ create basic flask app"""
@@ -15,7 +17,7 @@ app = create_app()
 @app.route('/')
 def index():
     """ index route """
-    return "Hello Koko!"
+    return WELCOME_TEXT
 
 
 @app.route('/timeout')
